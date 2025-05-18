@@ -1,1 +1,18 @@
 @charset "utf-8";
+
+body {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: flex;
+}
+.grid-col-4 {}
+.grid-item {
+    list-style: none;
+}
