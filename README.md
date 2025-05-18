@@ -2,7 +2,6 @@
 step9の課題用
 
 ## ディレクトリとファイル構成
-```
 w8-output/
 ├── html-css/
 │   ├── index.html
@@ -10,4 +9,3 @@ w8-output/
 ├── database/
 │   └── main.js
 └── README.md
-```
