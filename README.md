@@ -6,6 +6,7 @@ step9の課題用
 w8-output/
 ├── html-css/
 │   ├── index.html
+│   ├── sanitize.css
 │   └── style.css
 ├── database/
 │   └── main.js
