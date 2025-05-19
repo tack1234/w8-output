@@ -1,18 +1,59 @@
 @charset "utf-8";
 
-body {
-    margin: 0;
-}
+/*
+余計な余白を消す
+*/
 
 ul {
-    margin: 0;
     padding: 0;
 }
 
+/*
+見やすいように、ページの周りに余白を設定
+*/
+
+.container {
+    margin: 100px 30px;
+}
+
+/*
+.gridをdisplay:flexにする
+*/
+
 .grid {
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
-.grid-col-4 {}
+
+/*
+それぞれのレイアウトの比率を設定
+(!!! 調べながら書いてみましたが、もっと簡単な表現があると思うので、時間がある時に
+試してみたいと思います...)
+*/
+
+.grid-col-2 > .grid-item {
+    width: calc(50% - 5px);
+}
+
+.grid-col-4 > .grid-item {
+    width: calc(25% - 7.5px);
+}
+
+.grid-col-6 > .grid-item {
+    width: calc((100% / 6) - (10px * 5 / 6));
+}
+
+/*
+レイアウトのダミーを作成
+*/
+
 .grid-item {
     list-style: none;
+    background-color: #318318;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+    font-size: 32px;
 }
