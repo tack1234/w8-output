@@ -1,6 +1,14 @@
 @charset "utf-8";
 
 /*
+webページのカラー設定
+*/
+
+body {
+    background-color: rgb(223, 252, 92);
+}
+
+/*
 余計な余白を消す
 */
 
@@ -50,10 +58,42 @@ ul {
 
 .grid-item {
     list-style: none;
-    background-color: #318318;
+    background-color: #4052f5;
     text-align: center;
     padding: 20px;
     color: white;
     border-radius: 8px;
     font-size: 32px;
 }
+
+/*
+フォームのレイアウト作成
+*/
+
+.form-container {
+}
+.signin-headline {}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.email-form, .password-form {
+    width: 300px;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 10px 0 20px 0;
+}
+.sign-in-btn {
+    width: 300px;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #4052f5;
+    color: #fff;
+}
+.btn-link {
+    text-decoration: none;
+}
+.sign-up {}
