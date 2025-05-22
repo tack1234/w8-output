@@ -6,11 +6,11 @@ window.addEventListener('DOMContentLoaded', () => {
     const email = localStorage.getItem('email');
     const password = localStorage.getItem('password');
 
-    if (email === true) {
+    if (email) {
         document.getElementById('email').value = email;
     }
 
-    if (password === true) {
+    if (password) {
         document.getElementById('password').value = password;
     }
 });
