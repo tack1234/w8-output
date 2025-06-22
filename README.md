@@ -9,6 +9,9 @@ w8-output/
 │   ├── sanitize.css
 │   └── style.css
 ├── database/
-│   └── main.js
+│   ├── index.html
+│   ├── main.js
+│   ├── sanitize.css
+│   └── style.css
 └── README.md
 ```
